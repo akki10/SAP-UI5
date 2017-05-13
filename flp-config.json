@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "Birthdays",
+        "description": "Birthdays",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#flp-runApp?html5App=birthdayscomplete&SAPUI5.Component=Birthdays&url=/",
+        "navigationComponentName": "Birthdays",
+        "intentSemanticObject": "",
+        "intentAction": "",
+        "html5ApplicationName": "birthdayscomplete",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [],
+        "contentPackages": [
+            "03a799da-5998-4705-86eb-97e9af34a438-1428951440883"
+        ],
+        "categories": [
+            "56414380-8f24-45a0-88fc-915e866ef66c-1428957152116"
+        ]
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Birthdays",
+        "subtitle": "Birthdays  this week",
+        "searchKeywords": "Birthdays,Birthdays  this week",
+        "displayIconUrl": "sap-icon://collaborate",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

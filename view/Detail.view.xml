@@ -1,0 +1,33 @@
+<mvc:View xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" controllerName="Birthdays.view.Detail">
+    <Page id="detailPage" navButtonPress="onNavBack" title="{i18n&gt;detailTitle}" showNavButton="{device&gt;/isPhone}">
+        <content>
+            <ObjectHeader id="detailHeader" title="{cust_dateOfBirth}" number="{cust_firstName}" numberUnit="{cust_lastName}" introActive="false" titleActive="false" iconActive="false">
+                <attributes id="detailAttributes">                
+                    <ObjectAttribute id="attribute" text="{i18n&gt;detailText}" active="false">
+                    </ObjectAttribute>
+                </attributes>
+                <firstStatus id="detailStatus">
+                    <ObjectStatus id="status" text="">
+                    </ObjectStatus>
+                </firstStatus>
+            </ObjectHeader>
+            <Image src="data: image/jpeg;base64,{photoContent}" width="168px" height="216px"/>
+			
+            <Image src="http://icons.iconarchive.com/icons/mohsenfakharian/christmas/512/cake-icon.png" width="140px" height="140px"/>
+
+            <Button text="Send Your colleague a greeting email..." press="sendGreetingEmail" width="286px" type="Accept"/>
+
+    		<core:ExtensionPoint name="extDetail"/>
+        </content>
+        <footer id="detailFooter">
+            <Toolbar id="detailToolbar">
+                <content>
+                    <ToolbarSpacer id="toolbarSpacer">
+                    </ToolbarSpacer>
+                    <Button id="actionButton" press="openActionSheet" icon="sap-icon://action">
+                    </Button>
+                </content>
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

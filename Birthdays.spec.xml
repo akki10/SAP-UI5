@@ -1,0 +1,20 @@
+<Module>
+	<ModulePrefs title="Birthdays" description="Birthdays">
+	
+		<Require feature="sap-xhrwrapper"/>
+	
+	
+	
+	
+	
+	
+	
+		
+		
+																		
+	</ModulePrefs>
+	
+	<!-- ModuleConfig AllowedHeaders="DemoHeader1,DemoHeader2" /--> 
+
+	<Content type="html" view="default, authoring, consumption, mobile, preview" href="index.html"></Content>
+</Module>
